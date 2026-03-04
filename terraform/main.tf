@@ -18,8 +18,8 @@ provider "google" {
 }
 
 # Example resource: Create a VPC network
-resource "google_compute_network" "vpc_network" {
-  name                    = "terraform-network"
+resource "google_compute_network" "jvb-tf-network" {
+  name                    = "jvb-tf-network"
   auto_create_subnetworks = "true"
 }
 
